@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rpgTibia", "rpgTibia\rpgTibia.csproj", "{9621F28F-E85C-432F-B64D-E9A065B27958}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9621F28F-E85C-432F-B64D-E9A065B27958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9621F28F-E85C-432F-B64D-E9A065B27958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9621F28F-E85C-432F-B64D-E9A065B27958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9621F28F-E85C-432F-B64D-E9A065B27958}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32C6BCEB-6072-44E7-A2E4-F546314837CB}
+	EndGlobalSection
+EndGlobal
