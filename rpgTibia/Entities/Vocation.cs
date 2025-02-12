@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace rpgTibia.Entities
 {
-    internal class Vocation
+    public class Vocation
     {
         public Vocation()
         {
@@ -18,9 +18,10 @@ namespace rpgTibia.Entities
         private int cap;
         private int baseHp = 5;
         private int baseMp = 5;
-
+        // aqui eu edito as informçãoes
         public void setLevel(int level)
         {
+            this.level = level;
         }
         public void setHp(int hp)
         {
@@ -44,7 +45,7 @@ namespace rpgTibia.Entities
         {
             this.baseMp = baseMp;
         }
-
+        // aqui eu edito as informaçãoes
         public int getLevel()
         {
             return level;
@@ -64,7 +65,7 @@ namespace rpgTibia.Entities
         {
             return cap;
         }
-
+        // aqui eu calculo as coisas que tem que almentar como o level e o level dos hatributos
         public int calcularAtualHp()
         {
             return level * baseHp;
@@ -73,6 +74,11 @@ namespace rpgTibia.Entities
         public int calcularAtualMp()
         {
             return level * baseMp;
+        }
+
+        public int calcularlevel()
+        {
+            return level = level + 1;
         }
 
 

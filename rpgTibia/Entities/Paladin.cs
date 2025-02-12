@@ -6,16 +6,15 @@ using System.Threading.Tasks;
 
 namespace rpgTibia.Entities
 {
-    public class Knight : Vocation
+    public class Paladin:Vocation
     {
-        public Knight()
+        public Paladin()
         {
-            base.setBaseHp(15);
-            base.setBaseMp(5);
+            base.setBaseHp(10);
+            base.setBaseMp(15);
             base.setMp(base.calcularAtualMp());
             base.setHp(base.calcularAtualHp());
             base.setBaseHp(base.calcularlevel());
-
         }
     }
 }
