@@ -102,7 +102,6 @@ namespace rpgTibia.Entities
             Console.WriteLine("Vocação: " + nameVocation);
             Console.WriteLine("Level: " + vocation.getLevel());
             Console.WriteLine("HP: " + vocation.getHp() + " / MP: " + vocation.getMp());
-
         }
 
         public void atacar()

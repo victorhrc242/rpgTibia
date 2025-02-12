@@ -16,26 +16,25 @@ if (opcao2 == 1)
 {
     vocation = "knight";
     character1.chooseVocation(vocation);
+    character1.mostrarStatus();
 }
 if (opcao2 == 2)
 {
     vocation = "Paladin";
     character1.chooseVocation(vocation);
+    character1.mostrarStatus();
 }
 if (opcao2 == 3)
 {
     vocation = "Druid";
     character1.chooseVocation(vocation);
+    character1.mostrarStatus();
 }
 if (opcao2 == 4)
 {
     vocation = "Sorcerer";
     character1.chooseVocation(vocation);
+    character1.mostrarStatus();
 }
-character1.mostrarStatus();
 //Menu principal
 character1.listarMenu();
-  
-
-
-

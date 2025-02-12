@@ -14,7 +14,6 @@ namespace rpgTibia.Entities
             base.setBaseMp(30);
             base.setMp(base.calcularAtualMp());
             base.setHp(base.calcularAtualHp());
-            base.setBaseHp(base.calcularlevel());
         }
     }
 }
